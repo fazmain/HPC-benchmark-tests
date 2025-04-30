@@ -1,0 +1,60 @@
+Matrix Multiplication Benchmark
+--------------------------------
+
+Compiling with -O0...
+matrix_multiplication.cpp:29:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    auto start = chrono::high_resolution_clock::now();
+    ^
+matrix_multiplication.cpp:33:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    auto end = chrono::high_resolution_clock::now();
+    ^
+2 warnings generated.
+
+real	0m0.875s
+user	0m0.262s
+sys	0m0.186s
+Running matrix_O0...
+Matrix multiplication took 0.785678 seconds.
+
+real	0m1.236s
+user	0m0.797s
+sys	0m0.007s
+
+Compiling with -O2...
+matrix_multiplication.cpp:29:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    auto start = chrono::high_resolution_clock::now();
+    ^
+matrix_multiplication.cpp:33:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    auto end = chrono::high_resolution_clock::now();
+    ^
+2 warnings generated.
+
+real	0m0.363s
+user	0m0.278s
+sys	0m0.053s
+Running matrix_O2...
+Matrix multiplication took 0.170766 seconds.
+
+real	0m0.307s
+user	0m0.171s
+sys	0m0.002s
+
+Compiling with -O3...
+matrix_multiplication.cpp:29:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    auto start = chrono::high_resolution_clock::now();
+    ^
+matrix_multiplication.cpp:33:5: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    auto end = chrono::high_resolution_clock::now();
+    ^
+2 warnings generated.
+
+real	0m0.309s
+user	0m0.286s
+sys	0m0.042s
+Running matrix_O3...
+Matrix multiplication took 0.16961 seconds.
+
+real	0m0.304s
+user	0m0.170s
+sys	0m0.002s
+
